@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 09</title>
+    <style>
+      body {
+        background: rgb(0, 255, 242);
+        color: white;
+        font: normal 18pt Arial;
+      }
+      #test {
+        border: solid 1px red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong></p>
+    <div id="test">Clique Aqui</div>
+    <div id="test2">Testando o querySelector</div>
+
+    <script>
+      var corpo = window.document.body;
+      var p0 = window.document.getElementsByTagName("p")[0];
+      var p1 = window.document.getElementById("test");
+      var q = window.document.querySelector("div#test2"); //forma de seleção mais recente
+
+      corpo.style.background = "blue";
+      window.alert(p0.innerText);
+      p1.style.background = "green";
+      p1.innerText = "testando";
+      q.style.color = "red";
+    </script>
+  </body>
+</html>
