@@ -1,0 +1,39 @@
+
+header{
+    font-size: 24px;
+
+    border: solid 1px red;
+    height: 50px;
+    align-content: center;
+    text-align: center;
+    
+
+
+}
+
+
+body{
+    
+    
+    background-color: rgb(0, 174, 255);
+
+    border: solid 1px red;
+    
+}
+
+section{
+
+background-color: white;
+border-radius: 10px;
+width: 500px;
+margin: auto;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.596);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    
+}
+
+
